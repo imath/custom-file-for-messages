@@ -57,7 +57,7 @@ class Custom_Attachment extends BP_Attachment {
 	 * Optionnal, use it if you need to do some custom actions in the upload directory
 	 * eg: add a subdirectory for each user ids
 	 */ 
-	public function upload_dir_filter() {
+	public function upload_dir_filter( $upload_dir = array() ) {
 		/** 
 		 * You can use the BP_Attachment->upload_dir_filter() function to get
 		 * your custom upload dir data
