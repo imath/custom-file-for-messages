@@ -83,7 +83,7 @@ function custom_file_for_messages_upload_file() {
 		}
 	}
 }
-add_action( 'bp_actions', 'custom_file_for_messages_upload_file', 20 );
+add_action( 'bp_actions', 'custom_file_for_messages_upload_file', 9 );
 
 /**
  * Don't keep the uploaded file if sending the message failed
